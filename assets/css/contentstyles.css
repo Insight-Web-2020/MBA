@@ -63,3 +63,16 @@ and adjust the navbar */
   border-bottom: 2px solid rgba(18,18,18,0.2);
   margin-bottom: 64px;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+th:not(:last-child), td:not(:last-child) { border-right: 2px solid #daafc0; }
+tr:nth-child(even) {background-color: #f3e8ec;}
+tr:nth-child(odd) {background-color: #ecceda;}
