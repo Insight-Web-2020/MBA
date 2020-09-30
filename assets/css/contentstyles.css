@@ -45,6 +45,17 @@ div.data-text{
   justify-content: center;
 }
 
+/*text bold/strong*/
+strong {
+  font-weight:bold; 
+  color: black;
+}
+
+b {
+  font-weight:bold; 
+  color: black;
+}
+
 /* On screens that are less than 768px wide, shift the content back to the left
 and adjust the navbar */
 @media screen and (max-width: 767px) {
