@@ -23,7 +23,7 @@ div.content {
 }
 
 div.data-img{
-  text-align: center;
+  text-align: justify;
   padding: 8px;
   height: 96%;
   display: flex;
@@ -43,6 +43,17 @@ div.data-text{
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+/*text bold/strong*/
+strong {
+  font-weight:bold; 
+  color: black;
+}
+
+b {
+  font-weight:bold; 
+  color: black;
 }
 
 /* On screens that are less than 768px wide, shift the content back to the left
