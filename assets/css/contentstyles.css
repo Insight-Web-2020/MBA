@@ -22,6 +22,10 @@ div.content {
   margin-bottom: 8px;
 }
 
+div.content a{
+  font-weight: bolder;
+}
+
 div.data-img{
   text-align: justify;
   padding: 8px;
