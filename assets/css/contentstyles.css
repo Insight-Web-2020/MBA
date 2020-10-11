@@ -130,3 +130,6 @@ th, td {
 th:not(:last-child), td:not(:last-child) { border-right: 2px solid #daafc0; }
 tr:nth-child(even) {background-color: #f3e8ec;}
 tr:nth-child(odd) {background-color: #ecceda;}
+h3 {
+  text-align: center;
+}
