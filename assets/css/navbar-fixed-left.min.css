@@ -40,18 +40,35 @@ body{
 .navbar.fixed-left .navbar-nav .nav-item .dropdown-menu{left:100%}}
 
 .nav-item{
-	margin-bottom: -4px !important;
+	margin-bottom: 9px !important;
 	margin-top: -4px !important;
-}
-
-.nav-link{
-	color:#000 !important;
-	transition: 0.05s ease-in-out !important;
-	font-size: 15.3pt;
 	text-align: center;
 }
 
+.nav-link{
+	color:#3F3635 !important;
+	transition: 0.05s ease-in-out !important;
+	font-size: 15.3pt;
+	text-align: center;
+	margin-bottom: -15px;
+}
+
+.nav-link-smol{
+	color:#3F3635 !important;
+	transition: 0.05s ease-in-out !important;
+	font-size: 9.6pt;
+	border: 1.2px solid #000;
+	border-radius: 6px;
+	padding: 4px;
+	top: 10px;
+}
+
 .nav-link:hover{
+	opacity: 0.7;
+	transition: 0.05s ease-in-out !important;
+}
+
+.nav-link-smol:hover{
 	opacity: 0.7;
 	transition: 0.05s ease-in-out !important;
 }
