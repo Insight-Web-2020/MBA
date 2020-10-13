@@ -47,6 +47,8 @@ body{
 .nav-link{
 	color:#000 !important;
 	transition: 0.05s ease-in-out !important;
+	font-size: 15.3pt;
+	text-align: center;
 }
 
 .nav-link:hover{
