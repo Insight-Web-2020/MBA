@@ -6,7 +6,7 @@
 } 
 
 .logo-style {
-  height: 108px;
+  height: 72px;
   transition: 0.3s;
   margin: 0 auto 0 auto;
   margin-bottom: 18pt;
@@ -106,7 +106,7 @@ blockquote{
   padding: 0 20px;
   line-height: 1.4;
   color: black;
-  padding-top: 1.5em;
+  padding-top: 0.9em;
 }
 
 blockquote:before {
@@ -132,7 +132,7 @@ p{
 
 footer{
   margin:0;
-  padding-top: 0.45em;
+  padding-top: 0.9em;
   text-align: right;
   font-size: 1em;
   color: black;
@@ -142,7 +142,7 @@ footer{
 /* On screens that are less than 768px wide, shift the content back to the left
 and adjust the navbar */
 @media screen and (max-width: 767px) {
-  div.content {margin-left: 2px; margin-right: 2px;}
+  div.content {margin-left: 6px; margin-right: 6px;}
   div.content {margin-top: 0px;}
   .logo-style {height: 54px; padding: 1px; margin: 0;}
   div.data-img img{
