@@ -169,8 +169,8 @@ th, td {
   padding: 8px;
 }
 th:not(:last-child), td:not(:last-child) { border-right: 2px solid #daafc0; }
-tr:nth-child(even) {background-color: #f3e8ec;}
-tr:nth-child(odd) {background-color: #ecceda;}
+tr:nth-child(even) {background-color:rgb(73.33%, 64.31%, 65.49%, 0.5);}
+tr:nth-child(odd) {background-color: #bba4a7;}
 h3 {
   text-align: center;
 }
