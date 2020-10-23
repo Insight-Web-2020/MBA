@@ -1,5 +1,22 @@
+body, html {
+  height: 100%;
+}
+
+.bg { 
+  /* The image used */
+  background-image: url("../images/coverimg.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .box {
-    width: 30vw;
+    width: 80%;
     text-align: center;
 }
 #logo {
@@ -25,9 +42,10 @@
 
 .heading {
     position: absolute;
-    z-index: -11;
+    z-index: 11;
     min-height: 100vh;
     width: 100%;
+    padding: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,19 +69,18 @@
 }
 
 .links h4:hover {
-    transition: background-color 0.5s;
-    transition: opacity 0.5s;
-    color: black;
+    transition: background-color 0.3s;
+    transition: opacity 0.3s;
+    color: white;
     opacity: 0.3;
-    background-color: cornflowerblue !important;
     border: 2px solid white;
 }
 
 .links a h4 {
     font-size: 20px;
     padding: 2px;
-    color: black;
-    border: 2px solid black;
+    color: white;
+    border: 2px solid white;
     border-radius: 10px;
 }
 
@@ -82,7 +99,7 @@
 }
 
 #icon i:hover {
-    color: blue !important;
+    color: #002A3A !important;
     transition: background-color 1s;
     transition: opacity 0.5s;
     opacity: 0.8;
