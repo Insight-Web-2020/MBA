@@ -3,13 +3,8 @@ body, html {
 }
 
 .bg {
-  /* The image used */
   background-image: url("../images/coverimg.jpg");
-
-  /* Full height */
   height: 100%;
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,33 +20,25 @@ body, html {
     align-items: center;
 }
 
-#cover {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    height: 100vh;
-    object-fit: cover;
-}
-
 .content {
-    position: fixed;
+    position: relative;
+    min-height: 100%;
     color: #f1f1f1;
     width: 100%;
 }
 
 .heading {
-    position: absolute;
+    position: relative;
     z-index: 11;
-    min-height: 100vh;
+    padding: 2em;
     width: 100%;
-    padding: 1em;
+    height: 60%;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     opacity: 1;
     color: white;
-    height: 100%;
     align-items: center;
 }
 
@@ -84,25 +71,9 @@ body, html {
     border-radius: 10px;
 }
 
-#bottom {
-    display: flex;
-    flex-direction: column;
-    margin: 2px;
-    padding: 2px;
-}
-
-#icon{
-    display: flex;
-    margin-top: 5px;
-    padding-top: 5px;
-    border-top: 2px solid black;
-}
-
-#icon i:hover {
-    color: #002A3A !important;
-    transition: background-color 1s;
-    transition: opacity 0.5s;
-    opacity: 0.8;
-    /* background-color: darkorchid; */
-    border-radius: 5px;
+#footer {
+   position:fixed;
+   bottom:0;
+   width:30%;
+   height:100px;
 }
