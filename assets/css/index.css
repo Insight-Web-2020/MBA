@@ -72,11 +72,19 @@ body, html {
     border-radius: 10px;
 }
 
-#footer {
+.footer {
    position:fixed;
    bottom:0;
    width:27%;
    height:120px;
    padding-bottom: 30px;
    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 750px) {
+  .footer {width: 36%}
+}
+
+@media screen and (max-width: 630px) {
+  .footer {width: 54%}
 }
