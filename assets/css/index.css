@@ -14,6 +14,7 @@ body, html {
     width: 80%;
     text-align: center;
 }
+
 #logo {
     display: flex;
     flex-direction: column;
@@ -76,4 +77,6 @@ body, html {
    bottom:0;
    width:30%;
    height:100px;
+   padding-bottom: 30px;
+   margin-bottom: 30px;
 }
